@@ -12,7 +12,6 @@ html {
   height: 46px;
   background-color: #000;
   position: fixed;
- 
   top: 0;
   left: 0;
   right: 0;
@@ -88,6 +87,5 @@ html {
   background-color: #333; */
 }
 #content {
-  background-color: #ccc;
-  height: 10000px;
+  
 }
