@@ -153,6 +153,7 @@ html {
 }
 .tour-selection {
   background-color: #000;
+  
 }
 .tickets-list {
   background-color: #fff;
@@ -161,12 +162,12 @@ html {
 }
 .tickets-list li {
   padding: 10px 20px;
-  border-bottom:1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 .sout-out {
   background-color: #f44336 !important;
   color: #fff;
-  font-weight:500;
+  font-weight: 500;
   text-align: center;
   margin-left: 16px;
 }
@@ -176,9 +177,30 @@ html {
   background-color: #000;
   color: #fff;
   text-align: center;
-  float:right;
+  float: right;
   line-height: 24px;
   margin-top: -3px;
   border-radius: 50%;
-
 }
+#content .tour-list {
+  margin-top: 48px;
+ 
+}
+#content .tour-item {
+   float: left;
+  width: 33.333333%;
+  text-align: center;
+}
+.tour-img {
+  margin-top: 15px;
+  width: 254px;
+  height: 184px;
+}
+.tour-list-item {
+  background-color: #fff;
+  width: 255px;
+  margin-top: -4px;
+  margin-left: 6px;
+}
+
+
