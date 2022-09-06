@@ -197,7 +197,7 @@ html {
 .tour-list-item {
   background-color: #fff;
   width: 254px;
-  
+
   margin-top: -4px;
   font-family: "Lato", "Helvetica Neue";
 }
@@ -236,5 +236,81 @@ html {
   color: #000;
   background-color: #ccc;
   border: none;
+}
+.contact-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+.contact-list-item {
+  list-style: none;
+}
+.contact-icons {
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+}
+.contact-item-name {
+  margin-bottom: 3px;
+  padding-left: 13px;
+}
+.contact-item-phone {
+  padding-left: 14px;
+  
+}
+.contact-icons-item {
+  color: #000;
+  font-size: 20px;
+}
+.contact-item-email {
+  padding-left: 14px;
+  margin-top: 1px;
+}
+.icons-location {
+  font-size: 20px;
+}
+.contact-list-ask {
+  width: 385px;
+  
+}
+.contact-input-name {
+  width: 185px;
+  height: 41px;
+  padding: 0 5px;
+  float: left;
+  font-size: 16px;
+  align-items: center;
+}
+.contact-input-email {
+  width: 185px;
+  height: 41px;
+  padding: 0 5px;
+  float: left;
+  float: right;
+  font-size: 16px;
+  align-items: center;
+}
+.contact-input-message {
+  width: 100%;
+  height: 41px;
+  font-size: 16px;
+  margin-top: 12px;
+  padding: 0 5px;
+}
+.contact-button {
+  background-color: #000;
+  width: 72px;
+  height: 40px;
+  color: #ccc;
+  font-size: 24px;
+  float: right;
+  margin-top: 12px;
+  cursor: pointer;
+}
+.contact-button:hover {
+  background-color: #ccc;
+  color: #000;
+  border: none;
+  
 
 }
