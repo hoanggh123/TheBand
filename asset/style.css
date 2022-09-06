@@ -153,7 +153,6 @@ html {
 }
 .tour-selection {
   background-color: #000;
-  
 }
 .tickets-list {
   background-color: #fff;
@@ -184,12 +183,11 @@ html {
 }
 #content .tour-list {
   margin-top: 48px;
- 
 }
 #content .tour-item {
-   float: left;
+  float: left;
   width: 33.333333%;
-  text-align: center;
+  padding: 0 8px;
 }
 .tour-img {
   margin-top: 15px;
@@ -198,9 +196,45 @@ html {
 }
 .tour-list-item {
   background-color: #fff;
-  width: 255px;
+  width: 254px;
+  
   margin-top: -4px;
-  margin-left: 6px;
+  font-family: "Lato", "Helvetica Neue";
 }
+.tour-name {
+  margin-left: 15px;
+  padding: 10px 0;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.tour-time {
+  margin-left: 15px;
+  padding: 10px 0;
+  opacity: 0.8;
+  font-size: 1rem;
+}
+.tour-description {
+  width: 213px;
+  font-size: 17px;
+  margin-left: 15px;
+  padding: 10px 0px;
+  line-height: 22px;
+  text-align: justify;
+}
+.tour-stickets {
+  background-color: #000;
+  width: 100px;
+  height: 32px;
+  margin-bottom: 15px;
+  color: #ccc;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.tour-stickets:hover {
+  color: #000;
+  background-color: #ccc;
+  border: none;
 
-
+}
