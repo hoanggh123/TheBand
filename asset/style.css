@@ -193,7 +193,6 @@ html {
 .tour-img {
   width: 100%;
   display: block;
-
 }
 .tour-img:hover {
   opacity: 0.7;
@@ -205,7 +204,6 @@ html {
   font-family: "Lato", "Helvetica Neue";
 }
 .tour-name {
-   
   font-weight: 600;
   font-size: 15px;
 }
@@ -228,7 +226,6 @@ html {
   color: #ccc;
   text-decoration: none;
   border: none;
-  
 }
 .tour-stickets:hover {
   color: #000;
@@ -342,4 +339,64 @@ html {
 }
 .copyright-link {
   text-decoration: none;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-body {
+  width: 900px;
+  height: 470px;
+  background-color: #fff;
+}
+.modal-nav {
+  width: 100%;
+  background-color: #009688;
+  height: 130px;
+  
+}
+.close-nav{
+  float: right;
+  padding:8px 20px;
+  
+}
+.close-icons {
+  top: 0;
+  font-size: 1.4rem;
+  line-height: 46px;
+  cursor: pointer;
+}
+.close-nav:hover {
+  background-color: #d5d2d2;
+  cursor: pointer;
+}
+.heading-nav {
+
+  color: #fff;
+  font-family:Segoe UI;
+  font-size:30px;
+  letter-spacing:4px;
+  line-height:22px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  padding: 5px 16px ;
+ 
+}
+.heading-item{
+  padding: 0 5px;
+  font-weight: 400;
+}
+.heading-icons{
+  margin-top: 10px;
+  padding: 0 5px;
+
 }
