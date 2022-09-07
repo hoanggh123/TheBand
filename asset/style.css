@@ -182,7 +182,8 @@ html {
   border-radius: 50%;
 }
 #content .tour-list {
-  margin-top: 48px;
+  margin: 48px -8px 0;
+  padding-bottom: 32px;
 }
 #content .tour-item {
   float: left;
@@ -190,47 +191,44 @@ html {
   padding: 0 8px;
 }
 .tour-img {
-  margin-top: 15px;
-  width: 254px;
-  height: 184px;
+  width: 100%;
+  display: block;
+
+}
+.tour-img:hover {
+  opacity: 0.7;
 }
 .tour-list-item {
   background-color: #fff;
-  width: 254px;
-
-  margin-top: -4px;
+  width: 100%;
+  padding: 16px;
   font-family: "Lato", "Helvetica Neue";
 }
 .tour-name {
-  margin-left: 15px;
-  padding: 10px 0;
-  font-weight: 700;
-  font-size: 1.2rem;
+   
+  font-weight: 600;
+  font-size: 15px;
 }
 .tour-time {
-  margin-left: 15px;
-  padding: 10px 0;
-  opacity: 0.8;
-  font-size: 1rem;
+  color: #757575;
+  font-size: 15px;
+  margin-top: 16px;
 }
 .tour-description {
-  width: 213px;
-  font-size: 17px;
-  margin-left: 15px;
-  padding: 10px 0px;
+  font-size: 15px;
+  margin-top: 16px;
   line-height: 22px;
   text-align: justify;
 }
 .tour-stickets {
+  margin-top: 15px;
   background-color: #000;
-  width: 100px;
-  height: 32px;
-  margin-bottom: 15px;
+  padding: 11px 16px;
+  display: inline-block;
   color: #ccc;
   text-decoration: none;
-  margin-left: 15px;
-  font-size: 1.2rem;
-  cursor: pointer;
+  border: none;
+  
 }
 .tour-stickets:hover {
   color: #000;
@@ -256,7 +254,6 @@ html {
 }
 .contact-item-phone {
   padding-left: 14px;
-  
 }
 .contact-icons-item {
   color: #000;
@@ -271,7 +268,6 @@ html {
 }
 .contact-list-ask {
   width: 385px;
-  
 }
 .contact-input-name {
   width: 185px;
@@ -311,10 +307,8 @@ html {
   background-color: #ccc;
   color: #000;
   border: none;
-  
-
 }
-.map-selection{
+.map-selection {
   padding-top: 50%;
   margin-top: 46px;
   background: url(/asset/images/map.jpg) top center / cover no-repeat;
@@ -323,7 +317,7 @@ html {
 #footer {
   padding: 64px 0;
   text-align: center;
-} 
+}
 .socials-list {
   padding: 22px 0;
   text-decoration: none;
@@ -338,8 +332,6 @@ html {
 }
 .icons-link:hover {
   opacity: 0.6;
-
-
 }
 .copyright {
   padding: 0 0 18px 0;
@@ -347,7 +339,6 @@ html {
   font-weight: 300;
   font-size: 18px;
   padding: 0 0 0 15px;
-
 }
 .copyright-link {
   text-decoration: none;
