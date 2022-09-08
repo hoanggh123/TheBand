@@ -13,6 +13,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="form.js"></script>
 </head>
 
 <body>
@@ -97,7 +98,7 @@
                                 <div class="tour-time">Fri 27 Nov 2016</div>
                                 <div class="tour-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </div>
-                                <button class="tour-stickets">Tickets</button>
+                                <button class="tour-stickets" onclick="buyStickets()">Tickets</button>
                             </div>
                         </div>
                         <div class="tour-item">
@@ -107,7 +108,7 @@
                                 <div class="tour-time">Sat 28 Nov 2016</div>
                                 <div class="tour-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </div>
-                                <button class="tour-stickets">Tickets</button>
+                                <button class="tour-stickets" onclick="buyStickets()">Tickets</button>
                             </div>
                         </div>
                         <div class="tour-item">
@@ -118,7 +119,7 @@
                                 <div class="tour-time">Sun 29 Nov 2016</div>
                                 <div class="tour-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </div>
-                                <button class="tour-stickets">Tickets</button>
+                                <button class="tour-stickets" onclick="buyStickets()">Tickets</button>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -168,12 +169,12 @@
             <p class="copyright">Powered by <a href="" class="copyright-link"> w3.css</a></p>
         </div>
     </div>
-    <!-- From mua vé -->
-    <div class="modal">
-        <div class="modal-body">
+    <!-- From mua  -->
+    <div class="modal" id="modal-buyStickets">
+        <div class="modal-body" id="modal-body-form">
             <div class="modal-nav">
                 <div class="close-nav">
-                    <i class="fa-sharp fa-solid fa-x close-icons"></i>
+                    <i class="fa-sharp fa-solid fa-x close-icons" onclick="closeBuyStickets()"></i>
                 </div>
                 <div class="heading-nav">
                     <i class="fa-solid fa-suitcase heading-icons"></i>
@@ -199,7 +200,7 @@
                     <button class="item-btn">PAY<i class="fa fa-check icons-check"></i></button>
                 </div>
                 <div class="close-help">
-                    <button class="close-btn"><p class="close-item">Close</p><i class="fa-solid fa-xmark icon-close"></i></button>
+                    <button class="close-btn" onclick="closeBuyStickets()"><p class="close-item">Close</p><i class="fa-solid fa-xmark icon-close"></i></button>
                     <div class="link-need-help">Need <a href="" class="link-hepl">help?</a></div>
                 </div>
             </div>
